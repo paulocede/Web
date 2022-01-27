@@ -160,9 +160,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                             <input type="text" name="salary" class="form-control" value="<?php echo $salary; ?>">
                             <span class="help-block"><?php echo $salary_err;?></span>
                         </div>
-                        <input type="hidden" name="id" value="<?php echo $id; ?>"/>
-                        <input type="submit" class="btn btn-primary" value="Enviar">
-                        <a href="index.php" class="btn btn-default">Cancelar</a>
+                       <input type="submit" class="btn btn-primary" lue="Enviar">
                     </form>
                 </div>
             </div>        
